@@ -232,9 +232,8 @@ If you use this dataset or code, please cite:
 - Email: michelle@aetherone.xyz
 
 **Interested in:**
-- Head of Ecosystem / Developer Platform roles
-- Collaborations on Physical AI data infrastructure
-- Advisory opportunities in robotics/AI
+- Collaborations on Physical AI data & ecosystem
+- Advisory & angel investing opportunities in robotics/AI
 
 ## 🔗 Links
 
