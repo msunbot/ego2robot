@@ -1,0 +1,79 @@
+{
+  "codebase_version": "v2.0",
+  "robot_type": "egocentric_human",
+  "total_episodes": 50,
+  "total_frames": 1800,
+  "total_tasks": 1,
+  "fps": 6,
+  "splits": {
+    "train": "0:50"
+  },
+  "data_path": "data/episode_{episode_index:06d}.npz",
+  "features": {
+    "observation.images.top": {
+      "dtype": "image",
+      "shape": [
+        360,
+        640,
+        3
+      ],
+      "names": [
+        "height",
+        "width",
+        "channel"
+      ]
+    },
+    "observation.state": {
+      "dtype": "float32",
+      "shape": [
+        4
+      ],
+      "names": [
+        "hand_bbox_x_min",
+        "hand_bbox_y_min",
+        "hand_bbox_x_max",
+        "hand_bbox_y_max"
+      ]
+    },
+    "action": {
+      "dtype": "float32",
+      "shape": [
+        2
+      ],
+      "names": [
+        "hand_delta_x",
+        "hand_delta_y"
+      ]
+    },
+    "episode_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    },
+    "frame_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    },
+    "timestamp": {
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    "next.done": {
+      "dtype": "bool",
+      "shape": [
+        1
+      ]
+    },
+    "index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ]
+    }
+  }
+}

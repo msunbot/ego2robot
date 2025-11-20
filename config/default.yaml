@@ -1,0 +1,19 @@
+# Ego2Robot Configuration
+
+data:
+  dataset_name: "builddotai/Egocentric-10K"
+  streaming: true
+  max_videos: 1
+  
+clips:
+  target_duration: 6.0
+  stride: 30.0 # Change from 3.0 to 30.0 - skip more between clips
+  min_motion_score: 0.1
+  min_hand_visibility: 0.3
+  
+processing:
+  target_fps: 6
+  target_resolution: [360, 640]
+  
+output:
+  local_dir: "./data/ego2robot_dataset"

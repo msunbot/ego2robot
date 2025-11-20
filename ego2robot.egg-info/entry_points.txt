@@ -1,0 +1,2 @@
+[console_scripts]
+ego2robot = ego2robot.cli:cli

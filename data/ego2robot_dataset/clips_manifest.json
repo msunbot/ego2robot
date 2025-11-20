@@ -1,0 +1,254 @@
+[
+  {
+    "clip_id": "clip_0000",
+    "start_time": 0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1693679514289376,
+      "hand_visibility": 0.3333333333333333
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0000.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0001",
+    "start_time": 30.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.17194043957452262,
+      "hand_visibility": 0.4166666666666667
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0001.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0002",
+    "start_time": 60.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.19098351595540175,
+      "hand_visibility": 0.5833333333333334
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0002.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0003",
+    "start_time": 90.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1652713379469435,
+      "hand_visibility": 0.3333333333333333
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0003.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0004",
+    "start_time": 120.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1708120434448289,
+      "hand_visibility": 0.6666666666666666
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0004.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0005",
+    "start_time": 150.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1765969018326285,
+      "hand_visibility": 0.5
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0005.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0006",
+    "start_time": 180.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.18695288671023966,
+      "hand_visibility": 0.4166666666666667
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0006.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0007",
+    "start_time": 270.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.14742693515314623,
+      "hand_visibility": 0.5
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0007.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0008",
+    "start_time": 300.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1702286780725362,
+      "hand_visibility": 0.5
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0008.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0009",
+    "start_time": 330.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.17664284570037164,
+      "hand_visibility": 0.5833333333333334
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0009.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0010",
+    "start_time": 360.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.1686535467128028,
+      "hand_visibility": 0.4166666666666667
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0010.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  },
+  {
+    "clip_id": "clip_0011",
+    "start_time": 390.0,
+    "duration": 6.0,
+    "source_metadata": {
+      "factory_id": "unknown",
+      "worker_id": "unknown"
+    },
+    "quality_scores": {
+      "motion": 0.18686476355247983,
+      "hand_visibility": 0.4166666666666667
+    },
+    "frames_path": "./data/ego2robot_dataset/clip_0011.npy",
+    "num_frames": 36,
+    "shape": [
+      36,
+      360,
+      640,
+      3
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+venv/
+venv-3.11/
+*.pyc
+__pycache__/
+.DS_Store
+data/cache/
+data/ego2robot_dataset/*.npy
+data/lerobot_dataset/data/*.npz
+*.pth
+hf_space/
