@@ -2,31 +2,31 @@
 
 ## Week 1: Foundation ✅ 
 
-### Day 1 (Nov 18) ✅
+### Day 1 (Nov 12) ✅
 - [x] Environment setup
 - [x] Egocentric-10K access (gated dataset)
 - [x] Sampler downloads tar files from HF
 - [x] Loaded first 3 videos
 
-### Day 2 (Nov 19) ✅
+### Day 2 (Nov 13) ✅
 - [x] ClipExtractor implemented
 - [x] Extract 6s clips with 30s stride
 - [x] Downsample to 360x640, 6fps
 - [x] Test: 15 clips from 1 video
 
-### Day 3-4 (Nov 20-21) ✅
+### Day 3-4 (Nov 14-15) ✅
 - [x] MotionScorer (frame differencing)
 - [x] HandDetector (MediaPipe)
 - [x] QualityFilter (combined scoring)
 - [x] Test: 12/15 clips pass filters (80%)
 
-### Day 5-6 (Nov 22-23) ✅
+### Day 5-6 (Nov 16-17) ✅
 - [x] ClipStorage (save as .npy + manifest)
 - [x] Process 5 batches (same video, will fix in Week 2)
 - [x] 60 curated clips saved
 - [x] clips_manifest.json with metadata
 
-### Day 7 (Nov 24) ✅
+### Day 7 (Nov 18) ✅
 - [x] Quality review script
 - [x] Motion: mean=0.15, all >0.1
 - [x] Hands: mean=0.42, all >0.3
@@ -66,21 +66,21 @@
 
 ## Week 2: Embeddings & Skills ✅ Days 8-11 COMPLETE
 
-### Day 8 (Nov 27) ✅
+### Day 8 (Nov 19) ✅
 - [x] VideoMAEEmbedder implemented (videomae.py)
 - [x] Tested on 3 clips successfully
 - [x] 768-dim embeddings extracted
 - [x] Mean: ~0.01, Std: ~0.63 (good distribution)
 - **Result:** VideoMAE working perfectly
 
-### Day 9 (Nov 28) ✅
+### Day 9 (Nov 20) ✅
 - [x] Extracted embeddings for all 60 clips
 - [x] Saved all_embeddings.npy (60, 768)
 - [x] Updated manifest with embedding paths
 - [x] Processing speed: 3.56 clips/sec (16 seconds total)
 - **Result:** All clips embedded efficiently
 
-### Day 10 (Nov 29) ✅
+### Day 10 (Nov 21) ✅
 - [x] CLIPLabeler implemented (clip_text.py)
 - [x] Zero-shot labels for all 60 clips
 - [x] Top 2 action labels per clip with confidence
@@ -88,7 +88,7 @@
 - [x] Confidence scores: 0.30-0.56 (reasonable for zero-shot)
 - **Result:** All clips semantically labeled
 
-### Day 11 (Nov 30) ✅
+### Day 11 (Nov 22) ✅
 - [x] K-means clustering (10 clusters)
 - [x] t-SNE visualization saved (skill_clusters.png)
 - [x] Cluster IDs in manifest
@@ -170,32 +170,36 @@ This matches real manufacturing:
 
 ## Week 3: LeRobot Export & Polish ✅ Days 12-18 COMPLETE
 
-### Day 12-13 (Dec 1-2) ✅
+### Day 12-13 (Nov 23-24) ✅
 - [x] HandTracker for trajectories (hand_tracker.py)
 - [x] LeRobotEpisodeBuilder (lerobot_builder.py)
 - [x] Processed 50 best clips into episodes
 - [x] Created info.json metadata
 - [x] Validated all episodes load correctly
-- **Result:** 50 LeRobot episodes (~1,800 frames)
-
-### Day 14 (Dec 3) ✅
 - [x] Created comprehensive dataset card
 - [x] Uploaded to HF Hub
 - [x] Dataset public and accessible
-- **Result:** https://huggingface.co/datasets/msunbot1/ego2robot-factory-episodes
+- **Result:** 50 LeRobot episodes (~1,800 frames) https://huggingface.co/datasets/msunbot1/ego2robot-factory-episodes
 
-### Day 15-16 (Dec 4-5) ✅
+### Final polish ✅
 - [x] Episode visualization script
 - [x] Generated sample visualizations
 - [x] Hand bboxes + actions overlaid
-- **Result:** Visual demos ready
-
-### Day 17-18 (Dec 6-7) ✅
 - [x] Built simple CNN action predictor
 - [x] Trained on 1,800 frames
 - [x] Achieved convergence (val loss < train loss)
 - [x] Demonstrated dataset is learnable
 - **Result:** Training demo complete
+
+- [x] Fixed diverse video sampling (3 workers)
+- [x] Re-generated dataset with diversity
+- [x] CLI tool added (ego2robot convert)
+- **Result:** Complete interactive demo ready
+
+## Links
+- 📊 Dataset: https://huggingface.co/datasets/msunbot1/ego2robot-factory-episodes
+- 🎨 Space: https://huggingface.co/spaces/msunbot1/ego2robot-browser
+- 💻 GitHub: https://github.com/msunbot/ego2robot 
 
 ## Week 3 Metrics
 - LeRobot episodes: 50
@@ -224,11 +228,6 @@ This matches real manufacturing:
 - **Proof:** Dataset contains learnable manipulation patterns
 
 ### Next Technical Steps
-1. Add CLI tool (ego2robot convert)
-2. Process 5-10 diverse videos
-3. Re-upload as v2 with diversity metrics
-4. Add depth estimation for 3D understanding
-
-## Next: Documentation & Launch (Week 4)
-- [ ] Blog post
-- [ ] GitHub README
+1. Process 5-10 diverse videos
+2. Re-upload as v2 with diversity metrics
+3. Add depth estimation for 3D understanding
